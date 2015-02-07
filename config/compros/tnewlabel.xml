@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>30</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>21</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Visible</propname>
+		<propcname>是否显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>TableName</propname>
+		<propcname>表名</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Caption</propname>
+		<propcname>标题</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>标签</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>MyFont</propname>
+		<propcname>字体字号</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FontStyleEditor</editclass>
+	</prop>
+	<prop>
+		<propname>FieldName</propname>
+		<propcname>字段名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>MyLayout</propname>
+		<propcname>标题垂直布局</propcname>
+		<renderertype>combo</renderertype>
+		<valuetype>C</valuetype>
+		<value>居中</value>
+		<enumerate>
+			<name>置顶</name>
+			<code>置顶</code>
+		</enumerate>
+		<enumerate>
+			<name>居中</name>
+			<code>居中</code>
+		</enumerate>
+		<enumerate>
+			<name>置底</name>
+			<code>置底</code>
+		</enumerate>
+		<editclass />
+		<visiable>true</visiable>
+	</prop>
+	<prop>
+		<propname>dataType</propname>
+		<propcname>数据源类型</propcname>
+		<renderertype>combo</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<enumerate>
+			<name />
+			<code />
+		</enumerate>
+		<enumerate>
+			<name>结果界面</name>
+			<code>结果界面</code>
+		</enumerate>
+		<enumerate>
+			<name>条件界面</name>
+			<code>条件界面</code>
+		</enumerate>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>sourceid</propname>
+		<propcname>数据源ID</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+</root>

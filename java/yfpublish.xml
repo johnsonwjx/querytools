@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<project name="查询分析器3.0" version="000013.v201408131156">
+		<fileset dir="查询分析器3.0">
+			<include name="**" />
+		</fileset>
+	</project>
+</root>

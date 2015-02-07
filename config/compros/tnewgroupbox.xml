@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>452</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>33</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Caption</propname>
+		<propcname>标题</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value></value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Visible</propname>
+		<propcname>是否显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>CanBeCondition</propname>
+		<propcname>作为条件</propcname>
+		<renderertype>boolean</renderertype>
+	
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass></editclass>
+	</prop>
+	<prop>
+
+		<propname>CanEmpty</propname>
+		<propcname>允许为空</propcname>
+		<renderertype>boolean</renderertype>
+	
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass></editclass>
+	</prop>
+	<prop>
+
+		<propname>FieldName</propname>
+		<propcname>字段名</propcname>
+		<renderertype>custom</renderertype>
+	
+		<valuetype>C</valuetype>
+		<value></value>
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>FieldValue</propname>
+		<propcname>字段值</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value></value>
+		<editclass></editclass>
+	</prop>
+	<prop>
+		<propname>SingleGBBox</propname>
+		<propcname>单选分组控件</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass></editclass>
+	</prop>
+	<prop>
+		<propname>ColumnCount</propname>
+		<propcname>列数</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value></value>
+		<editclass></editclass>
+	</prop>
+</root>

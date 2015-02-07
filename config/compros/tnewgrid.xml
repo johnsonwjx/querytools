@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>320</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>120</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Visible</propname>
+		<propcname>是否显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Modules</propname>
+		<propcname>组件设置</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.ModulesEventEditor</editclass>
+	</prop>
+	<prop>
+		<propname>Columns</propname>
+		<propcname>列属性设置</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value>复合字段</value>
+		<editclass>youngfriend.editors.TableColumnEditor</editclass>
+	</prop>
+	<prop>
+		<propname>pageLine</propname>
+		<propcname>页行数</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>20</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>LevelFieldName</propname>
+		<propcname>树表分级字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>GridType</propname>
+		<propcname>表格类型</propcname>
+		<renderertype>combo</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<enumerate>
+			<name>普通表格</name>
+			<code>普通表格</code>
+		</enumerate>
+		<enumerate>
+			<name>带树的表格</name>
+			<code>带树的表格</code>
+		</enumerate>
+		<enumerate>
+			<name>带锁定的表格</name>
+			<code>带锁定的表格</code>
+		</enumerate>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ShowCheckBox</propname>
+		<propcname>显示行选择框</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>SelectedKeyFieldName</propname>
+		<propcname>用于选择的关键字段名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>SumDescDisplayField</propname>
+		<propcname>合计字符对应字段名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>TitleFont</propname>
+		<propcname>列头字体</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FontStyleEditor</editclass>
+	</prop>
+	<prop>
+		<propname>FrozenCols</propname>
+		<propcname>锁定列数</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>EnableGroup</propname>
+		<propcname>启用分组功能</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ContentWrap</propname>
+		<propcname>表格内容折行</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>GroupField</propname>
+		<propcname>分组字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>ExpandInfo</propname>
+		<propcname>树表展开级数</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value/>
+	</prop>
+</root>

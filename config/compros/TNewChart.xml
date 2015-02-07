@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>250</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>200</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Visible</propname>
+		<propcname>是否显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Caption</propname>
+		<propcname>标题</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>chartType</propname>
+		<propcname>图表类型</propcname>
+		<renderertype>combo</renderertype>
+		<valuetype>C</valuetype>
+		<value>9</value>
+		<enumerate>
+			<name>柱状图</name>
+			<code>9</code>
+		</enumerate>
+		<enumerate>
+			<name>横道图</name>
+			<code>11</code>
+		</enumerate>
+		<enumerate>
+			<name>饼图</name>
+			<code>14</code>
+		</enumerate>
+		<enumerate>
+			<name>线图</name>
+			<code>3</code>
+		</enumerate>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>XFieldName</propname>
+		<propcname>分类数据字段名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>XFieldDesc</propname>
+		<propcname>分类数据说明</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName</propname>
+		<propcname>分析数据字段名</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc</propname>
+		<propcname>分析数据说明</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName2</propname>
+		<propcname>分析数据字段名2</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc2</propname>
+		<propcname>分析数据说明2</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName3</propname>
+		<propcname>分析数据字段名3</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc3</propname>
+		<propcname>分析数据说明3</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName4</propname>
+		<propcname>分析数据字段名4</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc4</propname>
+		<propcname>分析数据说明4</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName5</propname>
+		<propcname>分析数据字段名5</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc5</propname>
+		<propcname>分析数据说明5</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>YFieldName6</propname>
+		<propcname>分析数据字段名6</propcname>
+		<renderertype>custom</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>YFieldDesc6</propname>
+		<propcname>分析数据说明6</propcname>
+		<renderertype>def</renderertype>
+
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>menus</propname>
+		<propcname>弹出菜单</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.SelMenusEditor</editclass>
+	</prop>
+</root>

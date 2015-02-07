@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 服务组件的基本信息信息和版本 -->
+	<module version="1.0">
+		<!-- 服务组件的基本信息（编号， 代码， 名称， 类名， 描述， 处理类名, 入口参数， 出口参数） -->
+		<info id="">
+			<code></code>
+			<typecode>01</typecode>
+			<typename>系统</typename>
+			<type>E</type>
+			<subtype></subtype>
+			<name>查询分析器3.0</name>
+			<classname></classname>
+			<description></description>
+			<propclassname></propclassname>
+			<inparam></inparam>
+			<outparam></outparam>
+		</info>
+		<!-- 服务组件包含的文件列表 -->
+		<fileset></fileset>
+	</module>
+</root>

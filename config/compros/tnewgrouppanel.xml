@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>480</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>55</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Visible</propname>
+		<propcname>是否显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>EventInfo</propname>
+		<propcname>字段事件信息</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldEventEditor</editclass>
+	</prop>
+</root>

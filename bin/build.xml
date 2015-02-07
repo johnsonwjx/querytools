@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="querytools_new" basedir="." default="all">
+
+	<!-- 设置项目属性 -->
+	<property name="work.dir" location="/Users/pandongyu/V6" />
+	<property name="src.dir" location="." />
+	<property name="classes.dir" location="../classes" />
+	<property name="lib.dir" location="../lib" />
+	<property name="app.jar.dir" location="${work.dir}/output/tools/toolset/查询分析器3.0" />
+	<property name="complier" location="C:\Program Files\Java\jdk1.6.0_34\bin\javac" />
+
+	<!-- 设置classpath -->
+	<path id="classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="clean">
+		<delete dir="${classes.dir}" />
+		<delete dir="${app.jar.dir}" />
+	</target>
+
+	<!-- 初始化 -->
+	<target name="init">
+		<mkdir dir="${classes.dir}" />
+	</target>
+
+	<!-- 编译  executable="${complier}"-->
+	<target name="compile" depends="init">
+
+		<javac destdir="${classes.dir}" includeantruntime="on" srcdir="." encoding="gbk" fork="true">
+			<classpath refid="classpath" />
+		</javac>
+	</target>
+	<!-- 复制资源文件到编译路径 -->
+	<target name="copyresource">
+		<echo>${ant.project.name} 复制资源文件到编译路径</echo>
+		<copy todir="${classes.dir}">
+			<fileset dir="${src.dir}">
+				<include name="*.xml" />
+				<exclude name="build.xml" />
+			</fileset>
+		</copy>
+
+		<copydir dest="${app.jar.dir}/images" src="../images" />
+		<copydir dest="${app.jar.dir}/config" src="../config" />
+		<copydir dest="${app.jar.dir}/logs" src="../logs" />
+		<copydir dest="${app.jar.dir}/log" src="../log" />
+		<copyfile dest="${app.jar.dir}/run.sh" src="../run.sh" />
+		<copyfile dest="${app.jar.dir}/data.xml" src="../data.xml" />
+		<copyfile dest="${app.jar.dir}/run.bat" src="../run.bat" />
+		<copyfile dest="${app.jar.dir}/yfmodule.xml" src="../yfmodule.xml" />
+		<copyfile dest="${app.jar.dir}/yfpublish.xml" src="yfpublish.xml" />
+	</target>
+
+	<!-- 解压包文件文件 -->
+	<target name="upjar" depends="init" description="unjar three part jar">
+		<unjar dest="${classes.dir}">
+			<!-- 包文件所在的目录 -->
+			<fileset dir="../lib">
+				<include name="**/*.jar" />
+				<exclude name="jdic_stub.jar" />
+			</fileset>
+		</unjar>
+	</target>
+
+	<!-- 打包 -->
+	<target name="jar" depends="version,compile,upjar,copyresource" description="build the jar">
+		<mkdir dir="${app.jar.dir}" />
+		<manifest file="MANIFEST.MF">
+			<attribute name="Main-Class" value="youngfriend.main.MainFrame" />
+		</manifest>
+		<jar basedir="${classes.dir}" manifest="MANIFEST.MF" compress="true" jarfile="${app.jar.dir}/querytool.jar">
+			<include name="**" />
+		</jar>
+		<delete file="MANIFEST.MF" />
+	</target>
+
+	<!-- 生成版本信息 -->
+	<target name="changeversion">
+		<echo>${ant.project.name} 生成版本信息</echo>
+		<propertyfile file="version.properties" comment="version">
+			<entry key="project.version" type="int" default="000001" operation="+" pattern="000000" />
+			<entry key="project.complie.date" type="date" value="now" pattern="yyyyMMddHHmm" />
+		</propertyfile>
+	</target>
+
+	<!-- 修改版本文件 -->
+	<target name="version" depends="changeversion">
+		<echo>${ant.project.name} 修改版本文件</echo>
+		<property file="version.properties" />
+		<replaceregexp encoding="utf-8" match="&quot; version=&quot;(.+)&quot;" replace="&quot; version=&quot;${project.version}.v${project.complie.date}&quot;">
+			<fileset dir=".." includes="**/yfpublish.xml" />
+		</replaceregexp>
+	</target>
+
+	<!-- 做所有事情 -->
+	<target name="all" depends="clean,jar" description="Build everything." />
+
+</project>

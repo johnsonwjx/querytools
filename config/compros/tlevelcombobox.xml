@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>70</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>21</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Name</propname>
+		<propcname>名称</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>FieldName</propname>
+		<propcname>字段名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>Caption</propname>
+		<propcname>标题</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>OperationSymbol</propname>
+		<propcname>操作符</propcname>
+		<renderertype>combo</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<enumerate>
+			<name>等于</name>
+			<code>=</code>
+		</enumerate>
+		<enumerate>
+			<name>小于</name>
+			<code>&lt;</code>
+		</enumerate>
+		<enumerate>
+			<name>小于等于</name>
+			<code>&lt;=</code>
+		</enumerate>
+		<enumerate>
+			<name>大于</name>
+			<code>&gt;</code>
+		</enumerate>
+		<enumerate>
+			<name>大于等于</name>
+			<code>&gt;=</code>
+		</enumerate>
+		<enumerate>
+			<name>不等于</name>
+			<code>&lt;&gt;</code>
+		</enumerate>
+		<enumerate>
+			<name>为空</name>
+			<code>isnull</code>
+		</enumerate>
+		<enumerate>
+			<name>不为空</name>
+			<code>notnull</code>
+		</enumerate>
+		<enumerate>
+			<name>左匹配</name>
+			<code>llike</code>
+		</enumerate>
+		<enumerate>
+			<name>右匹配</name>
+			<code>rlike</code>
+		</enumerate>
+		<enumerate>
+			<name>全匹配</name>
+			<code>alike</code>
+		</enumerate>
+		<enumerate>
+			<name>不匹配</name>
+			<code>notlike</code>
+		</enumerate>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Items</propname>
+		<propcname>属性值</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value>全部=,前1级=1,前2级=2,前3级=3,前4级=4,原始数据=Z</value>
+		<editclass>youngfriend.editors.ProValueEditor</editclass>
+	</prop>
+</root>

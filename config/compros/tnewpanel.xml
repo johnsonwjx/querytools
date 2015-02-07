@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<prop>
+		<propname>Left</propname>
+		<propcname>左边距</propcname>
+		<renderertype>no</renderertype>
+		<valuetype>C</valuetype>
+		<value>20</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Top</propname>
+		<propcname>上边距</propcname>
+		<renderertype>no</renderertype>
+		<valuetype>C</valuetype>
+		<value>20</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Width</propname>
+		<propcname>宽</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>600</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>Height</propname>
+		<propcname>高</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>400</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>QueryTitle</propname>
+		<propcname>自定义查询标题</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value>查询标题</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ServerName</propname>
+		<propcname>服务名</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.ServiceSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>TableName</propname>
+		<propcname>表名</propcname>
+		<renderertype>def</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ReportName</propname>
+		<propcname>报表名称</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.SetReportEditor</editclass>
+		<relationPros>ReportId</relationPros>
+	</prop>
+	<prop>
+		<propname>ReportId</propname>
+		<propcname>报表ID</propcname>
+		<renderertype>no</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass />
+	</prop>
+	<prop>
+		<propname>TitleFont</propname>
+		<propcname>查询标题字体字号</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value>charset=134:name=宋体:size=26:style=,fsBold:color=clBlack:newcolor=0,0,0
+		</value>
+		<editclass>youngfriend.editors.FontStyleEditor</editclass>
+	</prop>
+	<prop>
+		<propname>AutoCaption</propname>
+		<propcname>动态标题</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.DynamicTitleEditor</editclass>
+	</prop>
+	<prop>
+		<propname>MappedField</propname>
+		<propcname>代码中心映射字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.SetFieldRelationEditor</editclass>
+	</prop>
+	<prop>
+		<propname>Corpprivilegectrl</propname>
+		<propcname>集团权限控制</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>GroupByField</propname>
+		<propcname>分类汇总</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.GroupByEditor</editclass>
+	</prop>
+	<prop>
+		<propname>MinSumParam</propname>
+		<propcname>小计参数设置</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.MinSumEditor</editclass>
+	</prop>
+	<prop>
+		<propname>OrderByField</propname>
+		<propcname>排序字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.SortFieldsEditor</editclass>
+	</prop>
+	<prop>
+		<propname>Expression</propname>
+		<propcname>计算字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.ExpressionEditor</editclass>
+	</prop>
+	<prop>
+		<propname>Percentage</propname>
+		<propcname>百分比表达式</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.ExpressionEditor</editclass>
+	</prop>
+	<prop>
+		<propname>CountFieldName</propname>
+		<propcname>记录数返回字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>CountFieldName_In</propname>
+		<propcname>记录数传入字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.FieldSelectEditor</editclass>
+	</prop>
+	<prop>
+		<propname>CondiVisible</propname>
+		<propcname>是否显示条件界面</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>IsLeft</propname>
+		<propcname>窗口居左显示</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ChartDefaultField</propname>
+		<propcname>生成图表缺省字段</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.ChartDefaultEditor</editclass>
+	</prop>
+	<prop>
+		<propname>PrintParams</propname>
+		<propcname>打印参数</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value />
+		<editclass>youngfriend.editors.PrintParamEditor</editclass>
+	</prop>
+	<prop>
+		<propname>CanAutoGetResult</propname>
+		<propcname>加载完自动取数据</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>true</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>ZeroNotEmpty</propname>
+		<propcname>数据为0不显示空</propcname>
+		<renderertype>boolean</renderertype>
+		<valuetype>C</valuetype>
+		<value>false</value>
+		<editclass />
+	</prop>
+	<prop>
+		<propname>hiddenOperaBtns</propname>
+		<propcname>操作按钮隐藏</propcname>
+		<renderertype>custom</renderertype>
+		<valuetype>C</valuetype>
+		<value/>
+		<editclass>youngfriend.editors.OperaBtnsEditor</editclass>
+	</prop>
+</root>

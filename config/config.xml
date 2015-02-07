@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <service>
+    <address>127.0.0.1</address>
+    <port>12345</port>
+  </service>
+  <history>
+    <address>
+      <ip>127.0.0.1</ip>
+      <port>12345</port>
+    </address>
+  </history>
+</config>
